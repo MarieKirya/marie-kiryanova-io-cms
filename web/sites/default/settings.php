@@ -783,7 +783,7 @@ $settings['entity_update_batch_size'] = 50;
 /**
  * Automatically load Production/Dev Settings.
  */
-$local_settings = __DIR__ . "/../../../settings/settings.php";
+$local_settings = __DIR__ . "/../../../../settings/settings.php";
 if (file_exists($local_settings)) {
   include $local_settings;
 }
