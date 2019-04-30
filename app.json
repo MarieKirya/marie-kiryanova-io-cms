@@ -14,5 +14,13 @@
       "generator": "secret"
     }
   },
-  "image": "heroku/php"
+  "image": "heroku/php",
+  "buildpacks":[
+          {
+              "url":"heroku/php"
+          },
+          {
+              "url":"https://github.com/gaumire/heroku-buildpack-mysql"
+          }
+  ]
 }
