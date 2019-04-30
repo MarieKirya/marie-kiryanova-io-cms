@@ -1,0 +1,21 @@
+{
+  "name": "Marie Kiryanova's Portfolio",
+  "description": "This app does one little thing, and does it well.",
+  "keywords": [
+    "drupal",
+    "decoupled",
+    "cms"
+  ],
+  "website": "https://marie.kiryanova.io/",
+  "repository": "https://github.com/mariekirya/marie-kiryanova.io-cms",
+  "env": {
+    "SECRET_TOKEN": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    }
+  },
+  "image": "heroku/php",
+  "addons": [
+    "jawsdb-maria"
+  ]
+}
