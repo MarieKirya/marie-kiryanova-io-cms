@@ -1,16 +1,12 @@
 {
-  "name": "contentacms/contenta-jsonapi-project",
-  "description": "Project template for Contenta CMS.",
+  "name": "mariekirya/cms",
+  "description": "CMS for my headless sites..",
   "type": "project",
   "license": "GPL-2.0-or-later",
   "authors": [
     {
-      "name": "Mateu Aguiló Bosch",
-      "email": "mateu.aguilo.bosch@gmail.com"
-    },
-    {
-      "name": "Daniel Wehner",
-      "email": "dawehner@users.noreply.github.com"
+      "name": "Marie Kiryanova",
+      "email": "marie@kiryanova.io"
     }
   ],
   "repositories": [
