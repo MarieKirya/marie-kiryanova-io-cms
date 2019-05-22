@@ -1,0 +1,22 @@
+uuid: d39e29dc-d64a-4aa0-b2b4-f686a805343d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.jobs
+  module:
+    - text
+id: node.jobs.body
+field_name: body
+entity_type: node
+bundle: jobs
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

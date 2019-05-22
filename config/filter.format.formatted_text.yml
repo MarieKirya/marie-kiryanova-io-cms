@@ -1,0 +1,8 @@
+uuid: 4a8e6a6a-6332-4fef-86d1-e917ba83ec30
+langcode: en
+status: false
+dependencies: {  }
+name: 'Formatted Text'
+format: formatted_text
+weight: 0
+filters: {  }

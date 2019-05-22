@@ -1,0 +1,17 @@
+uuid: 056a2461-8921-439a-9ce5-619bff4f51fc
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Project
+type: project
+description: 'Representation of individual projects from contributions.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

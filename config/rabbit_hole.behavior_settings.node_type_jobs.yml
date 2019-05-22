@@ -1,0 +1,11 @@
+uuid: 642f73eb-4dae-4bc3-a1af-5a063069fb24
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.jobs
+id: node_type_jobs
+action: page_not_found
+allow_override: 0
+redirect: ''
+redirect_code: 301

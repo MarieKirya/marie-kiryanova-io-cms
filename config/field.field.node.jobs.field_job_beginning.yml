@@ -1,0 +1,21 @@
+uuid: 8dd0bbdf-4b4d-428b-bd14-291d7b32a571
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_beginning
+    - node.type.jobs
+  module:
+    - datetime
+id: node.jobs.field_job_beginning
+field_name: field_job_beginning
+entity_type: node
+bundle: jobs
+label: 'Job Begin'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

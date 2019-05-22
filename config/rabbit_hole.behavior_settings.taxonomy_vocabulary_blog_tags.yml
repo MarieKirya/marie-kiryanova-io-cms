@@ -1,0 +1,11 @@
+uuid: 9c0a8df4-1b9d-4bd7-8c10-d37b49bc7921
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.blog_tags
+id: taxonomy_vocabulary_blog_tags
+action: page_not_found
+allow_override: 0
+redirect: ''
+redirect_code: 301

@@ -1,0 +1,20 @@
+uuid: 7a1cac02-db72-4c4e-8f6c-8c900209a963
+langcode: en
+status: true
+dependencies:
+  theme:
+    - seven
+_core:
+  default_config_hash: egguWbi3wNlOAJikKNRs_hzrzDd1DqLDXcJebf3lRvg
+id: seven_local_actions
+theme: seven
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions (Material Admin)'
+  provider: core
+  label_display: '0'
+visibility: {  }

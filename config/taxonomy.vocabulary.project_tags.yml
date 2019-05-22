@@ -1,0 +1,9 @@
+uuid: 52d436b6-fc49-4c16-8108-dd63dc4c77a0
+langcode: en
+status: true
+dependencies: {  }
+name: 'Project Tags'
+vid: project_tags
+description: ''
+hierarchy: 0
+weight: 0
