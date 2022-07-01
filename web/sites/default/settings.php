@@ -260,9 +260,9 @@ $databases['default']['default'] = [
  *   );
  * @endcode
  */
-$config_directories = array(
-  CONFIG_SYNC_DIRECTORY => '../config',
-);
+$settings['config_sync_directory'] = [
+  CONFIG_SYNC_DIRECTORY => $app_root . '/config',
+];
 
 /**
  * Settings:
@@ -291,7 +291,7 @@ $config_directories = array(
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = getenv('HASH_SALT');
 
 /**
  * Deployment identifier.

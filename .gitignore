@@ -31,3 +31,20 @@ web/sites/*/private
 
 # Ignore SimpleTest multi-site environment.
 web/sites/simpletest
+/.csslintrc
+/.editorconfig
+/.eslintignore
+/.eslintrc.json
+/.gitattributes
+/.ht.router.php
+/.htaccess
+/autoload.php
+example.gitignore
+/index.php
+/robots.txt
+/update.php
+/web.config
+
+INSTALL.txt
+web/README.md
+web/sites/README.txt
